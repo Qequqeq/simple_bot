@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	botToken := "7942804600:AAHPdp_AdFl47YgkMJxaqCfaRGDHEw2mBJo" // <your_bot_token>
+	botToken := <your_bot_token>
 	if botToken == "" {
 		fmt.Println("BOT_TOKEN environment variable is required")
 		os.Exit(1)
